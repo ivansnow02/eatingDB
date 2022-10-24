@@ -1,2 +1,4 @@
-package com.eating.example;public class FavouriteTest {
+package com.eating.example;
+
+public class FavouriteTest {
 }

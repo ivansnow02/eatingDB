@@ -1,2 +1,5 @@
-package com.eating.example;public class UserTest {
+package com.eating.example;
+
+public class UserTest {
+
 }
