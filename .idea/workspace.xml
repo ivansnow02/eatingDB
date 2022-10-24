@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f7b9964-038b-43fa-bf9b-d2bf1ba555f0" name="变更" comment="init">
+    <list default="true" id="8f7b9964-038b-43fa-bf9b-d2bf1ba555f0" name="变更" comment="update UserTest">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eatingDB.iml" beforeDir="false" afterPath="$PROJECT_DIR$/eatingDB.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/eating/example/UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/eating/example/UserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/eating/example/FoodTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/eating/example/FoodTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,10 +37,16 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "extract.method.default.visibility": "private",
     "last_opened_file_path": "C:/Users/eone2/OneDrive/hamcrest-core-1.3.jar",
     "project.structure.last.edited": "模块",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -47,7 +54,23 @@
       <recent name="C:\Users\eone2\IdeaProjects\eatingDB\src" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.FoodTest.testSelectAll">
+    <configuration name="FoodTest.testSelectAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="eatingDB" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eating.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.eating.example" />
+      <option name="MAIN_CLASS_NAME" value="com.eating.example.FoodTest" />
+      <option name="METHOD_NAME" value="testSelectAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UserTest.testSelectAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="eatingDB" />
       <extension name="coverage">
@@ -66,6 +89,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FoodTest.testSelectAll" />
         <item itemvalue="JUnit.UserTest.testSelectAll" />
       </list>
     </recent_temporary>
@@ -78,7 +102,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1666617326146</updated>
-      <workItem from="1666617328060" duration="3053000" />
+      <workItem from="1666617328060" duration="3280000" />
+      <workItem from="1666653364350" duration="469000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1666618840982</created>
@@ -94,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666618852568</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update UserTest">
+      <created>1666620550350</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666620550350</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,6 +145,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="update UserTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="update UserTest" />
   </component>
 </project>
