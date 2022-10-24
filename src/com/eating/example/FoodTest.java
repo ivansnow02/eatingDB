@@ -2,7 +2,6 @@ package com.eating.example;
 
 import com.alibaba.druid.pool.DruidDataSourceFactory;
 import com.eating.pojo.Food;
-import com.eating.pojo.User;
 import org.junit.Test;
 
 import javax.sql.DataSource;
