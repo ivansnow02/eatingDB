@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f7b9964-038b-43fa-bf9b-d2bf1ba555f0" name="变更" comment="update FoodTest">
-      <change beforePath="$PROJECT_DIR$/src/com/eating/example/FoodTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/eating/example/FoodTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,30 +28,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "extract.method.default.visibility": "private",
-    "last_opened_file_path": "C:/Users/eone2/OneDrive/hamcrest-core-1.3.jar",
-    "project.structure.last.edited": "模块",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/eone2/OneDrive/hamcrest-core-1.3.jar&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\eone2\IdeaProjects\eatingDB\src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FoodTest.testSelectAll">
+  <component name="RunManager" selected="JUnit.FavouriteTest.testSelectAll">
+    <configuration name="FavouriteTest.testSelectAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="eatingDB" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eating.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.eating.example" />
+      <option name="MAIN_CLASS_NAME" value="com.eating.example.FavouriteTest" />
+      <option name="METHOD_NAME" value="testSelectAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FoodTest.testSelectAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="eatingDB" />
       <extension name="coverage">
@@ -86,6 +102,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FavouriteTest.testSelectAll" />
         <item itemvalue="JUnit.FoodTest.testSelectAll" />
         <item itemvalue="JUnit.UserTest.testSelectAll" />
       </list>
@@ -100,7 +117,7 @@
       <option name="presentableId" value="Default" />
       <updated>1666617326146</updated>
       <workItem from="1666617328060" duration="3280000" />
-      <workItem from="1666653364350" duration="603000" />
+      <workItem from="1666653364350" duration="1234000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1666618840982</created>
@@ -130,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666653891590</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update FoodTest">
+      <created>1666653980819</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1666653980819</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
