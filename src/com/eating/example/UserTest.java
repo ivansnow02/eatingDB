@@ -49,4 +49,32 @@ public class UserTest {
         conn.close();
     }
 
+    /**
+     * 添加
+     */
+    @Test
+    public void testAdd() throws Exception {
+        String userName = "chuoshen";
+        String email = "123@12.com";
+        String password = "121212";
+
+        Properties prop = new Properties();
+        prop.load(new FileInputStream("src/druid.properties"));
+        DataSource dataSource = DruidDataSourceFactory.createDataSource(prop);
+        Connection conn = dataSource.getConnection();
+
+        String sql = "insert into tb_user(username, email, password) values(?,?,?);";
+
+        PreparedStatement pstmt = conn.prepareStatement(sql);
+        pstmt.setString(1, userName);
+        pstmt.setString(2, email);
+        pstmt.setString(3, password);
+
+        int count = pstmt.executeUpdate();
+
+        System.out.println(count > 0);
+        pstmt.close();
+        conn.close();
+    }
+
 }

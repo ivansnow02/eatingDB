@@ -48,5 +48,31 @@ public class FoodTest {
         pstmt.close();
         conn.close();
     }
+    /**
+     * 添加
+     */
+    @Test
+    public void testAdd() throws Exception {
+        String name = "chuoshen";
+        String canteen = "tao";
+        int floor = 1;
 
+        Properties prop = new Properties();
+        prop.load(new FileInputStream("src/druid.properties"));
+        DataSource dataSource = DruidDataSourceFactory.createDataSource(prop);
+        Connection conn = dataSource.getConnection();
+
+        String sql = "insert into tb_food(name, canteen, floor) values(?,?,?);";
+
+        PreparedStatement pstmt = conn.prepareStatement(sql);
+        pstmt.setString(1, name);
+        pstmt.setString(2, canteen);
+        pstmt.setInt(3, floor);
+
+        int count = pstmt.executeUpdate();
+
+        System.out.println(count > 0);
+        pstmt.close();
+        conn.close();
+    }
 }
